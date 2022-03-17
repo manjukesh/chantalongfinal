@@ -1,1 +1,1 @@
-web: gunicorn Slok.wsgi --log-file=-
+web: gunicorn Reader.wsgi --log-file=-
