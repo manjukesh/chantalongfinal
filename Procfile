@@ -1,1 +1,1 @@
-web: gunicorn Reader.wsgi --log-file=-
+python manage.py runserver
