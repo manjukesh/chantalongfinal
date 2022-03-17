@@ -1,1 +1,1 @@
-web: gunicorn chantalong.wsgi
+web: gunicorn core.wsgi --log-file=-
