@@ -1,0 +1,22 @@
+{% load static %}
+<div>
+
+
+<button class="button" id="Language" onclick="selectlanguage()">Only Eng</button>
+    <!--button class="button" id="Manual" onclick="Manual()">Manual</button-->
+    <!-- <button class="button" id="loop" onclick="inLoopfunc()">loop</button> -->
+    <button class="button" id="goBack" onclick="goBack()">&#9204 Pre</button>
+    <button class="button" id="goForward" onclick="goForward()">Next &#9205</button>
+    <!-- <audio id="oggSource" controls autoplay onseeking="getCurrentTime()" onpause="functionPause()" onplay="functionPlay()">
+        <source type="audio/ogg" >
+        <source type="audio/mp3" >
+        Your browser does not support the audio element.
+    </audio> -->
+    <br />
+    <p></p>
+    <p id="replaceText" style="font-family:Courier;font-size:20px;"></p>
+    <p hidden="hidden" id="fileName"></p>
+    <input hidden="hidden" value="false" id="stateAsync" />
+    <p id="timelines" hidden="hidden"></p>
+    <p id="shlokas" hidden="hidden"></p>
+</div>
