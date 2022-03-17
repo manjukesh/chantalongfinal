@@ -14,6 +14,8 @@ from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+STATIC_ROOT = BASE_DIR
+
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 
 # Quick-start development settings - unsuitable for production
@@ -135,4 +137,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Slok/static/')
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
+
