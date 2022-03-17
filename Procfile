@@ -1,1 +1,1 @@
-
+web: gunicorn chantalong.wsgi
