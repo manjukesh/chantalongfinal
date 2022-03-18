@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 from ranged_response import RangedFileResponse
 
 
-from ViwesSlok.settings import PROJECT_ROOT
+from Slok.settings import PROJECT_ROOT
 
 
 @csrf_exempt
