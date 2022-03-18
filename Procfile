@@ -1,1 +1,1 @@
-web: gunicorn chantalong.wsgi
+web: gunicorn --pythonpath Slok Slok.wsgi
