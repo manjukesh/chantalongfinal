@@ -1,1 +1,1 @@
-web: gunicorn --Reader/Slok/Slok Slok Slok.wsgi
+web: gunicorn --chdir --Reader/Slok/Slok Slok Slok.wsgi
