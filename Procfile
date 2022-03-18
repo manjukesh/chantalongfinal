@@ -1,1 +1,1 @@
-web: gunicorn Reader.Slok.manage:Slok
+web: gunicorn Reader.Slok.Slok.wsgi:Slok
