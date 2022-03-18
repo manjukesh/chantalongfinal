@@ -53,12 +53,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Slok.urls'
+//ROOT_URLCONF = 'Slok.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'Slok/static/')],
+        //'DIRS': [os.path.join(BASE_DIR, 'Slok/static/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Slok.wsgi.application'
+//WSGI_APPLICATION = 'Slok.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
@@ -131,10 +131,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
-#STATIC_ROOT = os.path.join(BASE_DIR, 'Slok/static/')
+//#STATIC_ROOT = os.path.join(BASE_DIR, 'Slok/static/')
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'Slok/static/')
+  //  os.path.join(BASE_DIR, 'Slok/static/')
 ]
 
 
