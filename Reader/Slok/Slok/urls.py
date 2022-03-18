@@ -1,4 +1,4 @@
-from Slok import views
+from URLPYSlok import views
 from django.conf.urls import url
 from django.urls import path
 
