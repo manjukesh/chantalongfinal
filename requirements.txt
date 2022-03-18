@@ -1,5 +1,6 @@
 asgiref==3.4.1
 dj-database-url==0.5.0
+dj_static
 django-heroku
 backports.zoneinfo==0.2.1
 psycopg2-binary==2.8.5
