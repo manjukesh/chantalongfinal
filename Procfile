@@ -1,1 +1,1 @@
-web: gunicorn Reader.Slok.Slok.wsgi:Slok --preload --workers 1
+web: gunicorn Reader.Slok.Slok.wsgi --preload --workers 1
