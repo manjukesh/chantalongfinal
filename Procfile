@@ -1,1 +1,1 @@
-web: gunicorn Reader.Slok:Slok
+web: gunicorn Reader.Slok.Slok:Slok
